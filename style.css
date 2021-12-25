@@ -1,0 +1,269 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.root {
+  height: 100%;
+  background-color: #111;
+}
+
+.nb {
+  position: fixed;
+  width: 100%;
+  background-color: #21242e;
+}
+
+.nb-box {
+  width: 80%;
+  margin: auto;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nb-box h1 {
+  color: #e72c30;
+  font-family: 'Great Vibes', cursive;
+}
+
+.search-signin-box {
+  position: relative;
+}
+
+.search-signin-box input {
+  width: 500px;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+  padding-left: 20px;
+  font-size: 16px;
+}
+
+.search-signin-box a {
+  text-decoration: none;
+  color: #e72c30;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.search-signin-box div {
+  position: absolute;
+  top: 3px;
+  right: 71px;
+  background-color: #e72c30;
+  padding: 13px;
+  padding-left: 20px;
+  border-radius: 25px;
+  width: 120px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+}
+
+.music {
+  height: 100%;
+  padding-top: 66px;
+  padding-bottom: 66px;
+}
+
+.music-box {
+  padding-top: 1px;
+  width: 80%;
+  margin: auto;
+  height: 100%;
+  /* padding-top: 0.5rem; */
+  /* padding-bottom: 0.5rem; */
+  display: flex;
+}
+
+.queue {
+  width: 350px;
+  height: 100%;
+  background-color: #21242e;
+}
+
+.queue p {
+  padding: 10px;
+  color: grey;
+}
+
+.queue-item {
+  display: flex;
+  padding: 10px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.active {
+  background-color: #111;
+}
+
+.queue-item-img-box1 {
+  background-image: url('./images/Alavaikuntapuram.jpg');
+  background-size: cover;
+  background-position: top;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.queue-item-img-box2 {
+  background-image: url('./images/Brokenangel.jpg');
+  background-size: cover;
+  background-position: top;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.queue-item-img-box3 {
+  background-image: url('./images/ekkadiki-pothavu-chinnavada.jpg');
+  background-size: cover;
+  background-position: top;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.queue-item-text {
+  color: #dcdcdc;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.movie {
+  height: 100%;
+  width: 100%;
+  padding-left: 50px;
+  overflow-y: auto;
+}
+
+.movie-box {
+  color: grey;
+  font-weight: bold;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.scrollable-box {
+  padding-top: 0.5rem;
+  display: flex;
+}
+
+.movie-text-box {
+  width: 160px;
+  height: 200px;
+  text-align: center;
+}
+
+.movie-img {
+  padding: 5px;
+  text-align: center;
+}
+
+.movie-img img {
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.movie-img p {
+  color: #dcdcdc;
+}
+
+.player {
+  background-color: #21242e;
+  position: fixed;
+  width: 100%;
+  height: 66px;
+  border-top: 1px solid #111;
+}
+
+.player-box {
+  width: 80%;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.song-info-box {
+  width: 250px;
+  display: flex;
+  align-items: center;
+}
+
+.song-info-box .img-box {
+  background-image: url('./images/Alavaikuntapuram.jpg');
+  height: 50px;
+  width: 50px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.song-info-box .text-box {
+  color: #dcdcdc;
+  padding-left: 10px;
+}
+
+.song-info-box .text-box span {
+  font-size: 12px;
+}
+
+.song-info-box .icon-box {
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+}
+
+.controls {
+  height: 100%;
+  width: 100%;
+}
+
+.song-bar {
+  height: 5px;
+  background-color: rgba(231, 44, 48, 0.5);
+  border-radius: 25px;
+  position: relative;
+}
+
+.song-bar-length {
+  position: absolute;
+  width: 300px;
+  border-radius: 25px;
+  height: 5px;
+  background-color: #e72c30;
+}
+
+.controls-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 61px;
+}
+
+.controls-box div {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+}
+
+.controls-box div img {
+  width: 100%;
+}
+
+.play {
+  background-color: #e72c30;
+  border-radius: 50%;
+}
